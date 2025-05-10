@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <meta name="description" content="Welcome to the home page of our website. Here you can find various resources and links to other pages.">
+    <meta name="author" content="Rian Cardoso Christani">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="pictureName">
+            <img src="images/profile-picture.webp" alt="Profile">
+            <h1>Rian Cardoso Christani</h1>
+        </div>
+        <button type="button" id="menu"></button>
+        <nav id="navHeader">
+            <ul class="navigation">
+                <li><a class="options" href="index.html">Home</a></li>
+                <li><a class="options" href="chamber.html">Chamber</a></li>
+                <li><a class="options" href="final.html">Final</a></li>
+                <li><a class="options" href="github-profile.html">GitHub Profile</a></li>
+                <li><a class="options" href="linkedin.html">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="homeh2">Home</h2>
+    <div class="gridMain">
+        <section id="courseWork">
+            <h3>Course Work</h3>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="city">
+            <h3>Apucarana, Brazil</h3>
+            <figure>
+                <img src="images/city.webp" alt="Apucarana city">
+                <figcaption>Jabuti Lake</figcaption>
+            </figure>
+        </section>
+
+        <section id="programminCertificate">
+            <h3>Web and Computer Programming Certificate</h3>
+            <nav class="navCertificate">
+                <ul class="certificates">
+                    <li class="coursesOptions" id="allCourses">All</li>
+                    <li class="coursesOptions" id="wddCourses">WDD</li>
+                    <li class="coursesOptions" id="cseCourses">CSE</li>
+                </ul>
+            </nav>
+            <div class="totalCredits"></div>
+            <div class="courses"></div>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 📸 Rian Cardoso Christani 📸</p>
+        <div class="footerFlag">
+            <p>Brazil</p>
+            <img src="images/brazil-flag.png" alt="Brazil flag">
+        </div>
+        <p class="lastM">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
