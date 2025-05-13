@@ -1,0 +1,48 @@
+{
+    "familyName" : "Christani",
+    "moveDate" : "15-03-2025",
+    "familyNumber" : 8,
+    "bishopVisit" : true,
+    "eachMemberInfo" : [
+        {
+        "name" : "Rian Christani",
+        "Gender" : "M",
+        "birthdate" : "15-03-2003"
+        },
+        {
+            "name": "Maria Caroline Christani",
+            "gender": "F",
+            "birthdate": "12-06-2000"
+        },
+        {
+            "name": "Rebeca Christani",
+            "gender": "F",
+            "birthdate": "08-09-2010"
+        },
+        {
+            "name": "Benjamin Christani",
+            "gender": "M",
+            "birthdate": "22-11-2012"
+        },
+        {
+            "name": "Lucas Christani",
+            "gender": "M",
+            "birthdate": "03-05-2015"
+        },
+        {
+            "name": "Isabela Christani",
+            "gender": "F",
+            "birthdate": "27-07-2017"
+        },
+        {
+            "name": "Samuel Christani",
+            "gender": "M",
+            "birthdate": "10-01-2019"
+        },
+        {
+            "name": "Sophia Christani",
+            "gender": "F",
+            "birthdate": "14-02-2022"
+        }
+    ]
+}
