@@ -18,7 +18,7 @@ const displayMembersGrid = (members) => {
         logo.setAttribute('alt', `Logo of ${member.name}`)
         logo.setAttribute('loading', 'lazy')
         logo.setAttribute('width', '160'),
-        logo.setAttribute('height', '50')
+        logo.setAttribute('height', 'auto')
 
         websiteUrl.setAttribute('href', member.website);
         websiteUrl.textContent = member.website;

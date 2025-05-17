@@ -14,10 +14,13 @@
 
     <link rel="icon" href="images/chamber.ico">
     <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/larger.css" media="print" onload="this.media='all'">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap">
+    </noscript>
 
     <script src="scripts/members.js" defer></script>
     <script src="../scripts/navigation.js" defer></script>
@@ -26,7 +29,7 @@
 <body>
     <header>
         <div class="pictureName">
-            <img src="../images/profile-picture.webp" alt="Profile">
+            <img src="../images/profile-picture.webp" alt="Profile" width="80" height="80">
             <h2>Rian Cardoso Christani</h2>
         </div>
         <button type="button" id="menu"></button>
@@ -65,7 +68,7 @@
         <p>&copy;<span id="currentyear"></span> 📸 Rian Cardoso Christani 📸</p>
         <div class="footerFlag">
             <p>Brazil</p>
-            <img src="../images/brazil-flag.png" alt="Brazil flag">
+            <img src="../images/brazil-flag.webp" alt="Brazil flag" width="32" height="20">
         </div>
         <p class="lastM">Last Modification: <span id="lastModified"></span></p>        
     </footer>

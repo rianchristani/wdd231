@@ -115,6 +115,7 @@ tr:nth-child(odd){
 /* -- HEADER -- */
 .pictureName img{
     width: 80px;
+    height: auto;
     box-shadow: 0 0 8px rgb(104, 104, 104);
 }
 
@@ -202,7 +203,7 @@ footer p{
 
 footer img{
     width: 40px;
-    height: auto;
+    height: 30px;
 }
 
 .footerFlag{

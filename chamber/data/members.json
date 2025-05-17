@@ -1,11 +1,11 @@
 {
   "members":
   [{
-    "name": "Tech World",
+    "name": "Central Computers",
     "address": "123 Innovation Ave, Silicon Valley, CA",
     "phone": "+1 408-555-0199",
-    "website": "https://techworld000100.com/",
-    "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=700,fit=crop,q=95/Awv43kPqNJUzy7qp/logo-AoPWovb3RZcgx89v.png",
+    "website": "https://www.centralcomputer.com/",
+    "image": "https://www.centralcomputer.com/static/version1747148889/frontend/centralcomputers/ultimate/en_US/images/logo.png",
     "membership_level": 3,
     "category": "Electronics",
     "opening_hours": "Mon to Sat, 9am - 6pm"
@@ -21,11 +21,11 @@
     "opening_hours": "Daily, 7am - 10pm"
     },
   {
-    "name": "City Gym",
+    "name": "Dexterity Depot",
     "address": "7740 Wornall Rd, Kansas City, CA",
     "phone": "+1 816-361-7700",
-    "website": "https://citygymkc.com/",
-    "image": "https://citygymkc.com/wp-content/uploads/2023/07/logo-color.png",
+    "website": "https://www.dexteritydepot.com/",
+    "image": "https://static.wixstatic.com/media/41cb34_6430ddabc1d846ad80076c3b96ec0c2d~mv2.png/v1/fill/w_197,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Dexterity%20Depot%20Logo%20Transparent%20Background%20Black.png", 
     "membership_level": 1,
     "category": "Fitness Center",
     "opening_hours": "Mon to Fri, 6am - 10pm; Sat & Sun, 8am - 6pm"
