@@ -6,38 +6,37 @@
 }
 
 #listTable td{
-    padding: 1rem
-};
+    padding: 1rem;
+    font-size: 17px;
+}
 
 /* HEADER */
-    .pictureName img{
-        width: 100px;
-    }
+.pictureName img{
+    width: 100px;
+}
 
-    .pictureName{
-        gap: 50px;
-    }
+.pictureName{
+    gap: 50px;
+}
 
-    #menu{
+#menu{
     display: none;
-    }
+}
 
-    .navigation {
-        flex-direction: row;
-        justify-content: center;
-    }
+.navigation {
+    flex-direction: row;
+    justify-content: center;
+}
 
-    .navigation .options{
-        display: block;
-        flex: 1 1 100%;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        border-radius: 5px;
-    }
+.navigation .options{
+    display: block;
+    flex: 1 1 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+}
 
-        #navHeader{
-        grid-template-rows: 1fr;
-    }
-
-
+#navHeader{
+    grid-template-rows: 1fr;
+}
 }
