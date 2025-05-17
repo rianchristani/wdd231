@@ -1,9 +1,5 @@
 @media (min-width: 37.5rem){
 
-    .pictureName img{
-        width: 100px;
-    }
-
     .pictureName{
         gap: 50px;
     }
@@ -13,16 +9,13 @@
         height: auto;
     }
 
-    /* #city{
-        margin: auto;
-    } */
-
     #menu{
         display: none;
     }
 
     .navigation {
         flex-direction: row;
+        justify-content: center;
     }
 
     .navigation .options{
@@ -44,7 +37,6 @@
         display: grid;
         margin: 2rem;
         grid-template-columns: 2fr 1fr;
-        /* grid-template-rows: 1fr 1fr; */
     }
 
     #programminCertificate{
@@ -68,6 +60,10 @@
 
     #programminCertificate h3{
         top: -45px;
+    }
+
+    #navHeader{
+        grid-template-rows: 1fr;
     }
 
 }

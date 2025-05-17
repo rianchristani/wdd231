@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber</title>
+    <meta name="description" content="Discover the best places in town with our local business directory — from restaurants and shops to services and attractions, all in one place.">
+    <meta name="author" content="Rian Cardoso Christani">
+
+    <meta property="og:title" content="Explore Your City's Best Spots">
+    <meta property="og:description" content="Find top-rated businesses, local services, and hidden gems — all in one easy-to-use city directory.">
+    <meta property="og:image" content="https://images-platform.99static.com//IcAYnazAzvZC6P_FP0t0KK4RXOk=/253x39:1128x915/fit-in/500x500/99designs-contests-attachments/137/137567/attachment_137567885">
+    <meta property="og:url" content="https://rianchristani.github.io/wdd231/chamber/directory.html">
+
+    <link rel="icon" href="images/chamber.ico">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap" rel="stylesheet">
+
+    <script src="scripts/members.js" defer></script>
+    <script src="/scripts/navigation.js" defer></script>
+    <script src="/scripts/date.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="pictureName">
+            <img src="/images/profile-picture.webp" alt="Profile">
+            <h2>Rian Cardoso Christani</h2>
+        </div>
+        <button type="button" id="menu"></button>
+        <nav id="navHeader">
+            <ul class="navigation">
+                <li><a class="options" href="/index.html">Home</a></li>
+                <li><a class="options" href="directory.html">Chamber</a></li>
+                <li><a class="options" href="final.html">Final</a></li>
+                <li><a class="options" href="github-profile.html">GitHub Profile</a></li>
+                <li><a class="options" href="linkedin.html">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>        
+    </header>
+    <main>
+        <section id="storesInfos">
+            <h3>Business Directory</h3>
+
+            <div id="buttons-image">
+                <div id="grid" class="changers">
+                    <img src="images/grid.svg" alt="Grid">
+                </div>
+                
+                <div id="list" class="changers">
+                    <img src="images/list.svg" alt="List">
+                </div>
+            </div>
+
+            <div id="storeMembers"></div>
+
+            <div id="divTable">
+                <table id="listTable"></table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 📸 Rian Cardoso Christani 📸</p>
+        <div class="footerFlag">
+            <p>Brazil</p>
+            <img src="/images/brazil-flag.png" alt="Brazil flag">
+        </div>
+        <p class="lastM">Last Modification: <span id="lastModified"></span></p>        
+    </footer>
+</body>
+</html>
