@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="something here">
+    <meta name="author" content="Rian Cardoso Christani">
+    <title>Document</title>
+
+    <meta property="og:title" content="Explore Your City's Best Spots">
+    <meta property="og:description" content="Find top-rated businesses, local services, and hidden gems — all in one easy-to-use city directory.">
+    <meta property="og:image" content="https://images-platform.99static.com//IcAYnazAzvZC6P_FP0t0KK4RXOk=/253x39:1128x915/fit-in/500x500/99designs-contests-attachments/137/137567/attachment_137567885">
+    <meta property="og:url" content="https://rianchristani.github.io/wdd231/chamber/directory.html">
+
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/api.js" defer></script>
+    <script src="../scripts/navigation.js" defer></script>
+    <script src="../scripts/date.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap">
+    </noscript>
+
+    <link rel="icon" href="images/home.ico">
+    <link rel="stylesheet" href="styles/home-small.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+</head>
+<body>
+
+    <header>
+        <img id="darkMode" src="images/moon-darkmode.svg" alt="Dark mode" loading="lazy">
+        <div class="pictureName">
+            <img id="mainImage" src="images/header-image.webp" alt="Profile" width="80" height="80">
+            <div>
+                <h2>Los Angeles</h2>
+                <h3>Chamber of Commerce</h3> <!-- Corrigido de h5 para h3 -->
+            </div>
+        </div>
+        
+        <button type="button" id="menu" aria-label="Abrir menu"></button>
+        <nav id="navHeader">
+            <ul class="navigation">
+                <li><a class="options" href="../index.html">Home</a></li>
+                <li><a class="options" href="directory.html">Chamber</a></li>
+                <li><a class="options" href="final.html">Final</a></li>
+                <li><a class="options" href="github-profile.html">GitHub Profile</a></li>
+                <li><a class="options" href="linkedin.html">LinkedIn</a></li>
+            </ul>
+        </nav>
+
+        <div id="heroImg">
+            <img id="heroImage" src="images/hero-image-california.webp" alt="California Golden Bridge" width="250" height="140">
+            <p>Keynote Tickets</p>
+        </div>
+
+    </header>    
+
+    <main>
+        <h1>Home</h1>
+
+        <div id="firstPart">
+            <div class="sections">
+                <section>
+                    <h2>Events</h2>
+                    <div id="events"><p>Future events here</p></div>
+                </section>
+            </div>
+
+            <div class="sections">
+                <section id="currentWeather">
+                    <h2>Current Weather</h2>
+                    <figure>
+                        <img id="weather-icon" src="images/weather-icon.png" alt="Weather icon" width="48" height="48">
+                        <figcaption></figcaption>
+                    </figure>
+                </section>
+            </div>
+
+            <div class="sections">
+                <section id="weatherForecast">
+                    <h2>Weather Forecast</h2> 
+                </section>
+            </div>
+        </div>
+        
+        <section id="storesInfos">
+            <h2>Stores Information</h2>
+            <div id="storeMembers"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footerChamberInfo">
+            <p class="strong">California Chamber of Commerce</p>
+            <p>1234 Sunset Blvd, Venice</p> 
+            <p>Los Angeles, CA 90291</p> 
+            <p>contact@californiabiz.org</p> 
+            <p>(310) 555-2478</p>
+        </div>
+        <div class="footerSvg">
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube-logo-icon.svg" alt="YouTube" width="32" height="20" loading="lazy"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter-logo-icon.svg" alt="Twitter" width="32" height="20" loading="lazy"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-logo-icon.svg" alt="LinkedIn" width="32" height="20" loading="lazy"></a>
+        </div>
+        <div class="footerCourseInfo">
+            <p>WDD231 Class Project</p>
+            <p>Rian Cardoso Christani</p>
+            <p>&copy;<span id="currentyear"></span> Los Angeles Chamber of Comemerce</p>
+            <p class="lastM">Last Modification: <span id="lastModified"></span></p>       
+        </div>
+ 
+    </footer>
+</body>
+</html>

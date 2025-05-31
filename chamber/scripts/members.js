@@ -11,9 +11,12 @@ const displayMembersGrid = (members) => {
         let phoneNumber = document.createElement('p');
         let websiteUrl = document.createElement('a');
 
+
         companyAddress.textContent = member.address;
         phoneNumber.textContent = member.phone;
 
+
+    
         logo.setAttribute('src', member.image)
         logo.setAttribute('alt', `Logo of ${member.name}`)
         logo.setAttribute('loading', 'lazy')
@@ -31,6 +34,7 @@ const displayMembersGrid = (members) => {
         card.classList.add('gridSections')
 
         cards.appendChild(card);
+
     })
 }
 

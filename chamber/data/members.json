@@ -1,73 +1,88 @@
 {
-  "members":
-  [{
-    "name": "Central Computers",
-    "address": "123 Innovation Ave, Silicon Valley, CA",
-    "phone": "+1 408-555-0199",
-    "website": "https://www.centralcomputer.com/",
-    "image": "https://www.centralcomputer.com/static/version1747148889/frontend/centralcomputers/ultimate/en_US/images/logo.png",
-    "membership_level": 3,
-    "category": "Electronics",
-    "opening_hours": "Mon to Sat, 9am - 6pm"
-  },
+  "members": [
     {
-    "name": "Asda",
-    "address": "Great Wilson St, Leeds LS11 5AD, CA",
-    "phone": "+44 113 243 5435",
-    "website": "https://www.asda.com/",
-    "image": "https://asdagroceries.scene7.com/is/image/asdagroceries/ASDA%20Logo?fmt=webp&qlt=70",
-    "membership_level": 2,
-    "category": "Grocery Store",
-    "opening_hours": "Daily, 7am - 10pm"
+      "name": "Central Computers",
+      "address": "123 Innovation Ave, Silicon Valley, CA",
+      "phone": "+1 408-555-0199",
+      "website": "https://www.centralcomputer.com/",
+      "image": "https://www.centralcomputer.com/static/version1747148889/frontend/centralcomputers/ultimate/en_US/images/logo.png",
+      "membership_level": 3,
+      "category": "Electronics",
+      "opening_hours": "Mon to Sat, 9am - 6pm",
+      "tagline": "Your tech, made easy",
+      "email": "support@centralcomputer.com"
     },
-  {
-    "name": "Dexterity Depot",
-    "address": "7740 Wornall Rd, Kansas City, CA",
-    "phone": "+1 816-361-7700",
-    "website": "https://www.dexteritydepot.com/",
-    "image": "https://static.wixstatic.com/media/41cb34_6430ddabc1d846ad80076c3b96ec0c2d~mv2.png/v1/fill/w_197,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Dexterity%20Depot%20Logo%20Transparent%20Background%20Black.png", 
-    "membership_level": 1,
-    "category": "Fitness Center",
-    "opening_hours": "Mon to Fri, 6am - 10pm; Sat & Sun, 8am - 6pm"
-  },
-  {
-    "name": "The Book Nook",
-    "address": "114 W Main St #102, CA",
-    "phone": "+1 559-741-2665",
-    "website": "https://www.thebook-nook.com/",
-    "image": "https://www.thebook-nook.com/wp-content/uploads/2022/10/The-book-Nook-1.png",
-    "membership_level": 2,
-    "category": "Bookstore",
-    "opening_hours": "Tues to Fri, 10am - 7pm; Sat, 10am - 5pm"
-  },
-  {
-    "name": "Urban Outfitters",
-    "address": "500 Broadway, CA",
-    "phone": "+1 212-966-4066",
-    "website": "https://www.urbanoutfitters.com/",
-    "image": "https://images.ctfassets.net/q602vtcuu3w3/5Kn3hosoikXHaQhOx4GikS/85a65a5048a108b332ae5aac4c44c009/SITE_LOGO_2025.svg",
-    "membership_level": 3,
-    "category": "Clothing Store",
-    "opening_hours": "Daily, 11am - 8pm"
-  },
-  {
-    "name": "Pet Haven",
-    "address": "505 W Minnehaha Ave, CA",
-    "phone": "+1 651-665-9311",
-    "website": "https://pethavenmn.org/",
-    "image": "https://pethavenmn.org/wp-content/uploads/2023/09/logo_primary.svg",
-    "membership_level": 1,
-    "category": "Pet Supplies",
-    "opening_hours": "Mon to Fri, 9am - 6pm"
-  },
-  {
-    "name": "Gadget Express",
-    "address": "123 Tech Park Dr, CA",
-    "phone": "+61 2 8000 1234",
-    "website": "https://www.gadgetexpress.com.au/",
-    "image": "https://i0.wp.com/gadgetexpress.com.au/wp-content/uploads/2019/02/new-gadget-logo-min-min.png?fit=200%2C95&ssl=1",
-    "membership_level": 2,
-    "category": "Mobile & Accessories",
-    "opening_hours": "Mon to Sat, 10am - 9pm"
-  }
-]}
+    {
+      "name": "Asda",
+      "address": "Great Wilson St, Leeds LS11 5AD, CA",
+      "phone": "+44 113 243 5435",
+      "website": "https://www.asda.com/",
+      "image": "https://asdagroceries.scene7.com/is/image/asdagroceries/ASDA%20Logo?fmt=webp&qlt=70",
+      "membership_level": 2,
+      "category": "Grocery Store",
+      "opening_hours": "Daily, 7am - 10pm",
+      "tagline": "Save more. Live better",
+      "email": "contact@asda.com"
+    },
+    {
+      "name": "Dexterity Depot",
+      "address": "7740 Wornall Rd, Kansas City, CA",
+      "phone": "+1 816-361-7700",
+      "website": "https://www.dexteritydepot.com/",
+      "image": "https://static.wixstatic.com/media/41cb34_6430ddabc1d846ad80076c3b96ec0c2d~mv2.png/v1/fill/w_197,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Dexterity%20Depot%20Logo%20Transparent%20Background%20Black.png",
+      "membership_level": 1,
+      "category": "Fitness Center",
+      "opening_hours": "Mon to Fri, 6am - 10pm; Sat & Sun, 8am - 6pm",
+      "tagline": "Stronger every single day",
+      "email": "info@dexteritydepot.com"
+    },
+    {
+      "name": "The Book Nook",
+      "address": "114 W Main St #102, CA",
+      "phone": "+1 559-741-2665",
+      "website": "https://www.thebook-nook.com/",
+      "image": "https://www.thebook-nook.com/wp-content/uploads/2022/10/The-book-Nook-1.png",
+      "membership_level": 2,
+      "category": "Bookstore",
+      "opening_hours": "Tues to Fri, 10am - 7pm; Sat, 10am - 5pm",
+      "tagline": "Stories for every soul",
+      "email": "hello@thebook-nook.com"
+    },
+    {
+      "name": "Urban Outfitters",
+      "address": "500 Broadway, CA",
+      "phone": "+1 212-966-4066",
+      "website": "https://www.urbanoutfitters.com/",
+      "image": "https://images.ctfassets.net/q602vtcuu3w3/5Kn3hosoikXHaQhOx4GikS/85a65a5048a108b332ae5aac4c44c009/SITE_LOGO_2025.svg",
+      "membership_level": 3,
+      "category": "Clothing Store",
+      "opening_hours": "Daily, 11am - 8pm",
+      "tagline": "Style that speaks loud",
+      "email": "support@urbanoutfitters.com"
+    },
+    {
+      "name": "Pet Haven",
+      "address": "505 W Minnehaha Ave, CA",
+      "phone": "+1 651-665-9311",
+      "website": "https://pethavenmn.org/",
+      "image": "https://pethavenmn.org/wp-content/uploads/2023/09/logo_primary.svg",
+      "membership_level": 1,
+      "category": "Pet Supplies",
+      "opening_hours": "Mon to Fri, 9am - 6pm",
+      "tagline": "For pets, with love",
+      "email": "contact@pethavenmn.org"
+    },
+    {
+      "name": "Gadget Express",
+      "address": "123 Tech Park Dr, CA",
+      "phone": "+61 2 8000 1234",
+      "website": "https://www.gadgetexpress.com.au/",
+      "image": "https://i0.wp.com/gadgetexpress.com.au/wp-content/uploads/2019/02/new-gadget-logo-min-min.png?fit=200%2C95&ssl=1",
+      "membership_level": 2,
+      "category": "Mobile & Accessories",
+      "opening_hours": "Mon to Sat, 10am - 9pm",
+      "tagline": "Gadgets fast and fresh",
+      "email": "help@gadgetexpress.com.au"
+    }
+  ]
+}

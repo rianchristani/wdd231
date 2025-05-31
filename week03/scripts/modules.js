@@ -59,7 +59,7 @@
 //   document.querySelector("#sections").innerHTML = html.join("");
 // }
 
-import byuiCourse from "./course.mjs";
+import byuiCourse from './course.mjs';
 import { populateSections} from "./sections.mjs";
 import { setTitle, renderSections } from "./output.mjs";
 
