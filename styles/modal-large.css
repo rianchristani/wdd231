@@ -42,24 +42,16 @@
 
     /* END Footer */
 
-    #firstPart{
+    /* Main */
+
+    main{
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
-        align-items: stretch;
-        gap: 0;
+        grid-template-columns: 1fr 2fr;
     }
 
-    #firstPart > *{
-        margin: .5rem;
-    }
+    /* End Main */
 
-    #storeMembers{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+    #levelsMemberDiv{
+        display: inline;
     }
-
-    #storeMembers > *{
-        margin: .5rem;
-    }
-
 }

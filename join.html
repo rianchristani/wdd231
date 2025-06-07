@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rian Cardoso Christani">
+    <meta name="description" content="Join our platform through this registration page. Fill out the form and explore detailed explanations about available membership plans and pricing.">
+
+    <meta property="og:title" content="Join Our Platform - Membership Registration">
+    <meta property="og:description" content="Complete the sign-up form and discover the membership plans that best fit your needs. Learn more about the benefits and pricing options available.">
+    <meta property="og:image" content="https://yourdomain.com/path-to-join-page-image.jpg">
+    <meta property="og:url" content="https://rianchristani.github.io/wdd231/">
+
+    <link rel="stylesheet" href="styles/modal-small.css">
+    <link rel="stylesheet" href="styles/modal-large.css">
+
+    <script src="scripts/modal.js" defer></script>
+    <script src="scripts/form-info.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="images/form.ico">
+    <title>Membership Application - Los Angeles Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <img id="darkMode" src="../chamber/images/moon-darkmode.svg" alt="Dark mode" loading="lazy">
+        <div class="pictureName">
+            <img id="mainImage" src="../chamber/images/header-image.webp" alt="Profile" width="80" height="80">
+            <div>
+                <h2>Los Angeles</h2>
+                <h3>Chamber of Commerce</h3>
+            </div>
+        </div>
+        
+        <button type="button" id="menu" aria-label="Abrir menu"></button>
+        <nav id="navHeader">
+            <ul class="navigation">
+                <li><a class="options" href="chamber.html">Home</a></li>
+                <li><a class="options" href="../chamber/directory.html">Chamber</a></li>
+                <li><a class="options" href="final.html">Final</a></li>
+                <li><a class="options" href="github-profile.html">GitHub Profile</a></li>
+                <li><a class="options" href="linkedin.html">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h1>Membership Application Form</h1>
+            <form action="thankyou.html" method="get" id="bussinesForm">
+                <label for="fName">First Name</label>
+                <input type="text" name="fName" id="fName" autocomplete="given-name" required class="inputStyle">
+
+                <label for="lName">Last Name</label>
+                <input type="text" name="lName" id="lName" autocomplete="family-name" required class="inputStyle">
+
+                <label for="organizationTile">Organization Tile</label>
+                <input type="text" name="organizationTile" id="organizationTile" autocomplete="organization-title" pattern="^[A-Za-zÀ-ÿ\s-]{7,}$" required class="inputStyle">
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" autocomplete="email" required class="inputStyle">
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" autocomplete="tel" required class="inputStyle">
+
+                <label for="organizationName">Organization's Name:</label>
+                <input type="text" name="organizationName" id="organizationName" autocomplete="organization" required class="inputStyle">
+
+
+                <label>Membership level:</label>
+                    <div id="levelsMemberDiv">
+                        <label class="membershipLevel">
+                            <input type="radio" name="membershipLevel" id="NP" value="0">
+                            Non profit
+                        </label>
+                        <label class="membershipLevel">
+                            <input type="radio" name="membershipLevel" id="bronze-radio" value="1">
+                            Bronze
+                        </label>
+                        <label class="membershipLevel">
+                            <input type="radio" name="membershipLevel" id="silver-radio" value="2">
+                            Silver
+                        </label>
+                        <label class="membershipLevel">
+                            <input type="radio" name="membershipLevel" id="gold-radio" value="3">
+                            Gold
+                        </label>  
+                    </div> 
+                    
+                <label for="description">Organization description:</label>
+                <textarea name="description" id="description"></textarea>
+
+                <input type="hidden" name="today" id="today">
+                <button type="submit" class="button">Send Form</button>
+            </form>
+        </section>
+            
+        <section id="memberS">
+            <h1>Membership Levels</h1>
+                <div class="levels">
+                    <p>Non Profit Membership Level</p>
+                    <button class="openButton" data-target="nonProfitMembership">Learn More</button>
+                    <dialog id="nonProfitMembership" class="membershipDialog">
+                        <button class="closeButton">❌</button>
+                        <h2>Non Profit</h2>
+
+                        <h3>Benefits</h3>
+                        <ul>
+                            <li>Access to exclusive non-profit resources</li>
+                            <li>Free attendance to two annual events</li>
+                            <li>Networking opportunities with other non-profit leaders</li>
+                            <li>Inclusion in our public member directory</li>
+                            <li>20% discount on paid workshops and webinars</li>
+                        </ul>
+
+                        <h3>Price</h3>
+                        <p>$49/year</p>
+                    </dialog>
+                </div>
+
+                <div class="levels">
+                    <p>Bronze Profit Membership Level</p>
+                    <button class="openButton" data-target="bronze">Learn More</button>
+                    <dialog id="bronze" class="membershipDialog">
+                        <button class="closeButton">❌</button>
+                        <h2>Bronze</h2>
+
+                        <h3>Benefits</h3>
+                        <ul>
+                            <li>Access to monthly newsletters</li>
+                            <li>1 free event ticket per year</li>
+                            <li>Bronze member badge on your profile</li>
+                            <li>10% discount on workshops</li>
+                        </ul>
+
+                        <h3>Price</h3>
+                        <p>$99/year</p>
+                    </dialog>
+                </div>
+
+                <div class="levels">
+                    <p>Silver Profit Membership Level</p>
+                    <button class="openButton" data-target="silver">Learn More</button>
+                    <dialog id="silver" class="membershipDialog">
+                        <button class="closeButton">❌</button>
+                        <h2>Silver</h2>
+
+                        <h3>Benefits</h3>
+                        <ul>
+                            <li>Everything in Bronze Membership</li>
+                            <li>Free access to all annual events</li>
+                            <li>Priority support and consultations</li>
+                            <li>Early access to new resources</li>
+                            <li>25% discount on all paid programs</li>
+                        </ul>
+
+                        <h3>Price</h3>
+                        <p>$199/year</p>
+                    </dialog>
+                </div>
+
+                <div class="levels">
+                    <p>Gold Profit Membership Level</p>
+                    <button class="openButton" data-target="gold">Learn More</button>
+                    <dialog id="gold" class="membershipDialog">
+                        <button class="closeButton">❌</button>
+                        <h2>Gold</h2>
+
+                        <h3>Benefits</h3>
+                        <ul>
+                            <li>All benefits from Silver Membership</li>
+                            <li>Dedicated account manager</li>
+                            <li>Unlimited event access with VIP seating</li>
+                            <li>Featured placement on our partner page</li>
+                            <li>50% discount on premium programs</li>
+                        </ul>
+
+                        <h3>Price</h3>
+                        <p>$399/year</p>
+                    </dialog>
+                </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footerChamberInfo">
+            <p class="strong">California Chamber of Commerce</p>
+            <p>1234 Sunset Blvd, Venice</p> 
+            <p>Los Angeles, CA 90291</p> 
+            <p>contact@californiabiz.org</p> 
+            <p>(310) 555-2478</p>
+        </div>
+        <div class="footerSvg">
+            <a href="https://www.youtube.com/" target="_blank"><img src="../chamber/images/youtube-logo-icon.svg" alt="YouTube" width="32" height="20" loading="lazy"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="../chamber/images/twitter-logo-icon.svg" alt="Twitter" width="32" height="20" loading="lazy"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="../chamber/images/linkedin-logo-icon.svg" alt="LinkedIn" width="32" height="20" loading="lazy"></a>
+        </div>
+        <div class="footerCourseInfo">
+            <p>WDD231 Class Project</p>
+            <p>Rian Cardoso Christani</p>
+            <p>&copy;<span id="currentyear"></span> Los Angeles Chamber of Comemerce</p>
+            <p class="lastM">Last Modification: <span id="lastModified"></span></p>       
+        </div>
+    </footer>
+</body>
+</html>

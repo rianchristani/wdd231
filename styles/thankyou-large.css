@@ -41,25 +41,4 @@
     }
 
     /* END Footer */
-
-    #firstPart{
-        display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
-        align-items: stretch;
-        gap: 0;
-    }
-
-    #firstPart > *{
-        margin: .5rem;
-    }
-
-    #storeMembers{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    #storeMembers > *{
-        margin: .5rem;
-    }
-
 }
