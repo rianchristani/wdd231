@@ -1,0 +1,35 @@
+@media only screen and (min-width: 64rem) {
+    #places{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .placesToVisit p{
+        margin-top: -5rem;
+    }
+
+    .placesToVisit h4{
+        margin-top: -5rem;
+    }
+
+    #message{
+        background-color: antiquewhite;
+    }
+
+    .placeDialog h2{
+        background-color: var(--secondary-color);
+        padding: .5rem;
+        text-align: center;
+        color: white;
+    }
+
+    .placeDialog p{
+        font-family: "Roboto", serif, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+        
+        margin: 1rem
+    }
+}

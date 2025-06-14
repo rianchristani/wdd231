@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="scripts/discover-cards.js" defer type="module"></script>
+    <script src="scripts/discorver-date.js" defer></script>
+    <script src="../scripts/navigation.js" defer></script>
+    <script src="../scripts/date.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/discover-small.css">
+    <link rel="stylesheet" href="styles/discover-medium.css">
+    <link rel="stylesheet" href="styles/discover-large.css">
+
+    <link rel="icon" href="images/places.ico">
+</head>
+<body>
+    <header>
+        <img id="darkMode" src="images/moon-darkmode.svg" alt="Dark mode" loading="lazy">
+        <div class="pictureName">
+            <img id="mainImage" src="images/header-image.webp" alt="Profile" width="80" height="80">
+            <div>
+                <h2>Los Angeles</h2>
+                <h3>Chamber of Commerce</h3>
+            </div>
+        </div>
+        
+        <button type="button" id="menu" aria-label="Abrir menu"></button>
+        <nav id="navHeader">
+            <ul class="navigation">
+                <li><a class="options" href="chamber.html">Home</a></li>
+                <li><a class="options" href="../chamber/directory.html">Chamber</a></li>
+                <li><a class="options" href="final.html">Final</a></li>
+                <li><a class="options" href="github-profile.html">GitHub Profile</a></li>
+                <li><a class="options" href="linkedin.html">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <input type="hidden" name="today" id="today">
+        <div id="message"></div>
+
+        <section id="places">
+            <h1>Places to visit</h1>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footerChamberInfo">
+            <p class="strong">California Chamber of Commerce</p>
+            <p>1234 Sunset Blvd, Venice</p> 
+            <p>Los Angeles, CA 90291</p> 
+            <p>contact@californiabiz.org</p> 
+            <p>(310) 555-2478</p>
+        </div>
+        <div class="footerSvg">
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube-logo-icon.svg" alt="YouTube" width="32" height="20" loading="lazy"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter-logo-icon.svg" alt="Twitter" width="32" height="20" loading="lazy"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-logo-icon.svg" alt="LinkedIn" width="32" height="20" loading="lazy"></a>
+        </div>
+        <div class="footerCourseInfo">
+            <p>WDD231 Class Project</p>
+            <p>Rian Cardoso Christani</p>
+            <p>&copy;<span id="currentyear"></span> Los Angeles Chamber of Comemerce</p>
+            <p class="lastM">Last Modification: <span id="lastModified"></span></p>       
+        </div>
+    </footer>
+</body>
+</html>
