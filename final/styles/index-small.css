@@ -226,13 +226,13 @@ h2{
     text-align: center;
 }
 
-footer a{
+#pFooter a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     border-bottom: 2px solid white;
 }
 
-footer a:hover{
+#pFooter a:hover{
     background-color: var(--secondary-color);
     border-radius: 5px;
 }
