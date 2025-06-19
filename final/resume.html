@@ -13,6 +13,7 @@
     <meta property="og:url" content="https://rianchristani.github.io/wdd231/final/resume.html">
 
     <script src="scripts/nav-footer.js" defer></script>
+    <script src="scripts/form.js"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -129,6 +130,26 @@
             <li>Helped the mission president to train 170 missionaries and collaborated with them to improve mission/area goals.</li>
             <li>Assisted individuals with their unique challenges using professional communication and spiritual guidance.</li>
             </ul>
+        </section>
+
+        <section id="formSection">
+            <h2>Scheadule a meeting:</h2>
+            <form action="submited.html" method="get" id="contactForm">
+                <label for="fName">First Name</label>
+                <input type="text" name="fName" id="fName" autocomplete="given-name" required class="inputStyle">
+
+                <label for="lName">Last Name</label>
+                <input type="text" name="lName" id="lName" autocomplete="family-name" required class="inputStyle">
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" autocomplete="email" required class="inputStyle">
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" autocomplete="tel" required class="inputStyle">
+
+                <input type="hidden" name="today" id="today">
+                <button type="submit" class="button">Scheadule</button>
+            </form>
         </section>
     </main>
 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rian Caroso Christani">
+    <meta name="description" content="Thank you for submitting the form. Your information has been successfully received. We'll get in touch with you shortly.">
+    <title>Thank You - Submission Received</title>
+
+    <script src="scripts/submited-paged.js" defer></script>
+    <script src="scripts/nav-footer.js" defer></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/resume-small.css">
+    <link rel="stylesheet" href="styles/resume-large.css">
+    <link rel="stylesheet" href="styles/submited.css">
+
+    <link rel="icon" href="images/check.ico">
+</head>
+<body>
+    <header>
+        <div class="pictureName">
+                <div id="circle">
+                <img id="mainImage" src="images/profile-picture.webp" alt="Profile" width="80">
+            </div>
+            <div>
+                <h2>Rian Christani</h2>
+            </div>
+        </div>
+        
+        <button type="button" id="menu" aria-label="Abrir menu"></button>
+        <nav id="navHeader">
+            <ul class="navigation">
+                <li><a class="options" href="index.html">Home</a></li>
+                <li><a class="options" href="projects.html">Projects</a></li>
+                <li><a class="options" href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="submitedPage">
+            <h1>Your form has been submitted. Thank you! I'll be in touch soon to scheadule the meeting</h1>
+                <p id="fName"></p>
+                <p id="lName"></p>
+                <p id="email"></p>
+                <p id="phoneNumber"></p>
+                <p id="timestamp"></p>
+        </section>
+    </main>
+
+        <footer>
+            <div id="all">
+        <div class="footerSvg">
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-logo.svg" alt="LinkedIn" width="32" height="20" loading="lazy"></a>
+            <p>LinkedIn Profile</p>
+        </div>
+            <div id="pFooter">
+                <p id="nameFooter">Rian Cardoso Christani</p>
+                <p id="emailFooter">rianchristani@hotmail.com</p>
+                <p id="phoneFooter">+55 (00) 00000-0000</p>
+                <p>&copy;<span id="currentyear"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
