@@ -9,10 +9,11 @@
 
     <meta property="og:title" content="Rian Christani Portfolio | Projects ">
     <meta property="og:description" content="Explore web development projects by Rian Christani, showcasing coding expertise and creative solutions across a variety of technologies.">
-    <!-- <meta property="og:image" content="https://pbs.twimg.com/profile_images/1834697642716413954/Rm79AVCN_400x400.jpg">
-    <meta property="og:url" content="https://rianchristani.github.io/"> -->
+    <meta property="og:image" content="https://rianchristani.github.io/wdd231/images/profile-picture.webp">
+    <meta property="og:url" content="https://rianchristani.github.io/wdd231/final/projects.html">
 
-    <script src="script/nav.js" defer></script>
+    <script src="scripts/creating-projects.js" type="module"></script>
+    <script src="scripts/nav-footer.js" defer></script>
 
     <link rel="stylesheet" href="styles/projects-small.css">
     <link rel="stylesheet" href="styles/projects-large.css">
@@ -20,6 +21,47 @@
     <link rel="icon" href="images/projects.ico">
 </head>
 <body>
-    
+            <header>
+        <div class="pictureName">
+            <div id="circle">
+                <img id="mainImage" src="images/profile-picture.webp" alt="Profile" width="80">
+            </div>
+            <div>
+                <h2>Rian Christani</h2>
+            </div>
+        </div>
+        
+        <button type="button" id="menu" aria-label="Abrir menu"></button>
+        <nav id="navHeader">
+            <ul class="navigation">
+                <li><a class="options" href="index.html">Home</a></li>
+                <li><a class="options" href="projects.html">Projects</a></li>
+                <li><a class="options" href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h1>Projects overview</h1>
+            <div id="projects"></div>
+        </section>
+    </main>
+
+        <footer>
+            <div id="all">
+        <div class="footerSvg">
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedIn.svg" alt="LinkedIn" width="32" height="20" loading="lazy"></a>
+            <p>LinkedIn Profile</p>
+        </div>
+            <div id="pFooter">
+                <p id="nameFooter">Rian Cardoso Christani</p>
+                <p id="emailFooter">rianchristani@hotmail.com</p>
+                <p id="phoneFooter">+55 (00) 00000-0000</p>
+                <p>&copy;<span id="currentyear"></span></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

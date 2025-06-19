@@ -9,10 +9,12 @@
 
     <meta property="og:title" content="Rian Christani | Web Developer Portfolio">
     <meta property="og:description" content="Explore the portfolio of Rian Christani, a passionate web developer. Discover featured projects, technical skills, and career highlights.">
-    <!-- <meta property="og:image" content="https://pbs.twimg.com/profile_images/1834697642716413954/Rm79AVCN_400x400.jpg">
-    <meta property="og:url" content="https://rianchristani.github.io/"> -->
+    <meta property="og:image" content="https://rianchristani.github.io/wdd231/images/profile-picture.webp">
+    <meta property="og:url" content="https://rianchristani.github.io/wdd231/final/index.html">
 
-    <script src="script/nav.js" defer></script>
+    <script src="scripts/nav-footer.js" defer></script>
+    <script src="scripts/home-api.js" defer></script>
+    <script src="scripts/local-storage.js" defer></script>
 
     <link rel="stylesheet" href="styles/index-small.css">
     <link rel="stylesheet" href="styles/index-large.css">
@@ -20,6 +22,73 @@
     <link rel="icon" href="images/home.ico">
 </head>
 <body>
-    
+        <header>
+        <div class="pictureName">
+            <div id="circle">
+                <img id="mainImage" src="images/profile-picture.webp" alt="Profile" width="80">
+            </div>
+            <div>
+                <h2>Rian Christani</h2>
+            </div>
+        </div>
+        
+        <button type="button" id="menu" aria-label="Abrir menu"></button>
+        <nav id="navHeader">
+            <ul class="navigation">
+                <li><a class="options" href="index.html">Home</a></li>
+                <li><a class="options" href="projects.html">Projects</a></li>
+                <li><a class="options" href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="aboutMe">
+        <h1>About Me</h1>
+        <div class="division">
+            <p>
+            My name is Rian Cardoso Christani. I’m a 22-year-old software development student currently enrolled in the online program at BYU–Idaho. I live in Apucarana, Paraná, Brazil, and I am passionate about technology, accessibility, and creating solutions that make a real difference in people’s lives. I currently work as an Accessibility Analyst at Sage Inclusion, a company focused on making digital experiences inclusive and accessible for individuals with disabilities. In this role, I collaborate with teams to evaluate and improve web content and applications, ensuring they meet international accessibility standards like WCAG and follow best practices for usability and inclusion. This work has not only strengthened my technical skills but also shaped my understanding of how technology can empower everyone, regardless of ability. I’m deeply committed to learning and growing as a developer, and I believe in building software that is thoughtful, efficient, and inclusive. Outside of work and study, I enjoy exploring new tools and frameworks, working on personal projects, and continually challenging myself to become a better problem solver and team contributor.
+            </p>
+            <img src="images/family.webp" alt="Family Picture">
+            <p>
+            Family has always been a central part of my life, and I’m grateful to be surrounded by people who continuously support and inspire me. In the picture shown, from left to right, you can see me, my wife, my mom, and my dad. The photo was taken during a memorable trip to Urubici, in the state of Santa Catarina, Brazil — a place known for its natural beauty and cold mountain climate. That trip was a meaningful moment of connection and rest, allowing us to explore breathtaking landscapes, enjoy peaceful time together, and make memories that I will always cherish. My family’s encouragement has played a vital role in my personal and professional journey, reminding me of the importance of balance, love, and perseverance.
+            </p>
+        </div>
+        </section>
+
+        <section id="accomplishments">
+            <h1>Skills Acquired – Examples</h1>
+            <div class="division">
+                <input type="hidden" name="today" id="today">
+                <h3>Local Storage</h3>
+                <div id="message" class="intoDivision"></div>
+
+                <div id="currentWeather" class="intoDivision">
+                    <figure>
+                        <h3>Weather API - Apucarana</h3>
+                        <img id="weather-icon" src="images/weather-icon.png" alt="Weather icon" width="48" height="48">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+        <footer>
+            <div id="all">
+        <div class="footerSvg">
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedIn.svg" alt="LinkedIn" width="32" height="20" loading="lazy"></a>
+            <p>LinkedIn Profile</p>
+        </div>
+            <div id="pFooter">
+                <p id="nameFooter">Rian Cardoso Christani</p>
+                <p id="emailFooter">rianchristani@hotmail.com</p>
+                <p id="phoneFooter">+55 (00) 00000-0000</p>
+                <p>&copy;<span id="currentyear"></span></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

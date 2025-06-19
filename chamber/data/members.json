@@ -5,7 +5,7 @@
       "address": "123 Innovation Ave, Silicon Valley, CA",
       "phone": "+1 408-555-0199",
       "website": "https://www.centralcomputer.com/",
-      "image": "https://www.centralcomputer.com/static/version1747148889/frontend/centralcomputers/ultimate/en_US/images/logo.png",
+      "image": "https://res.cloudinary.com/zenbusiness/q_auto,w_280/v1/logaster/logaster-2019-02-0041-t-the-computer-store-logo-2.png",
       "membership_level": 3,
       "category": "Electronics",
       "opening_hours": "Mon to Sat, 9am - 6pm",

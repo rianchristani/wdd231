@@ -6,3 +6,10 @@ menuButton.addEventListener('click', () => {
 
     menuButton.classList.toggle('open');
 })
+
+// Footer
+const currentyear = document.querySelector("#currentyear");
+
+const today = new Date();
+
+currentyear.innerHTML = today.getFullYear()
