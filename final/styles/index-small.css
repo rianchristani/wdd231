@@ -27,7 +27,7 @@ h1, h2, h3{
         "wdth" 100;
 }
 
-p, td, a, h5, figcaption{
+p, td, a, h5, figcaption, #weather-info{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -146,6 +146,7 @@ footer{
     background-color: var(--primary-color);
     padding: 1rem;
     color: white;
+    
 }
 
 footer p{
