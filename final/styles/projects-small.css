@@ -148,7 +148,6 @@ footer{
     background-color: var(--primary-color);
     padding: 1rem;
     color: white;
-    min-height: 100px;
 }
 
 footer p{
@@ -329,3 +328,14 @@ section h1{
 }
 
 /*  */
+
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+}
+
+footer a:hover{
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}

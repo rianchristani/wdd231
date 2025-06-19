@@ -307,3 +307,14 @@ textarea{
 }
 
 /* End Form */
+
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+}
+
+footer a:hover{
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
